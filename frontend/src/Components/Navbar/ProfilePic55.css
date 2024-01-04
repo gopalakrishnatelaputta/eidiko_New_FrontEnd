@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding:0;
+    background: #fff;
+  }
+
+  .wrapper2{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    /* position:absolute; */
+    border: 1px solid #f3f5f7;
+    border-radius: 50%;
+  /* background-image: url('emp.png'); */
+    background-size: 100% 100%;
+    /* margin: 100px auto; */
+    /* margin-right: 35px; */
+    overflow: hidden;
+    color: #fbfbfc;
+    cursor: pointer;
+  }

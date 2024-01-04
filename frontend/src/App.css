@@ -1,0 +1,12 @@
+
+.button1{
+  background-color:"#2196F3";
+  color:"white";
+  width:"290px";
+  border-radius:"20px";
+  margin-top:"20px";
+  display:"flex"
+}
+.cursor1{
+cursor:pointer
+}

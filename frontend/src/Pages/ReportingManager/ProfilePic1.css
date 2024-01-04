@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding:0;
+  background: #fff;
+}
+.wrapper{
+  height: 170px;
+  width: 200px;
+  position:relative;
+  border: 3px solid #3284fe;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  margin: 100px auto;
+  overflow: hidden;
+  color: #2a99fa;
+}
+.my_file{
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 120px;
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(0,0,0,0 .5);
+  opacity: 0;
+
+}
+.my_file::-webkit-file-upload-button{
+  visibility: hidden;
+}
+.my_file::before{
+  content:'\f030';
+  font-family:fontAwesome;
+  font-size: 35px;
+float: right;
+margin-right: 16px;
+  color: #3284fe;
+  display: inline-flex;
+  /* -webkit-user-select:none; */
+}
+.my_file::after{
+  content:'Upload';
+  font-family: 'arial';
+  font-weight: bold;
+  color: #44e760;
+  display: block;
+  top: 15px;
+  font-size: 12px;
+  position: relative;
+  margin-right: 16px;
+
+  float: right;
+
+}
+.my_file:hover{
+  opacity: 1;
+}
